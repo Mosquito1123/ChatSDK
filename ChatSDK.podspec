@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'ChatSDK'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ChatSDK.'
+  s.summary          = 'ChatSDK for Chat iOS Project'
+  s.swift_version = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +27,7 @@ TODO: Add long description of the pod here.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mosquito1123' => 'winston.zhangwentong@gmail.com' }
   s.source           = { :git => 'https://github.com/Mosquito1123/ChatSDK.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+   s.social_media_url = 'https://twitter.com/Winston_Cheung_'
 
   s.ios.deployment_target = '8.0'
 
@@ -38,5 +39,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.dependency 'SwiftWebSocket'
+s.requires_arc           = true
+s.libraries              = 'z'
 end
