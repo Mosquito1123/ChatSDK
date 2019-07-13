@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ChatSDKVersionNumber;
-FOUNDATION_EXPORT const unsigned char ChatSDKVersionString[];
+FOUNDATION_EXPORT double WTChatSDKVersionNumber;
+FOUNDATION_EXPORT const unsigned char WTChatSDKVersionString[];
 

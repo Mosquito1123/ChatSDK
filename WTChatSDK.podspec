@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WTChatSDK'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'ChatSDK for Chat iOS Project'
   s.swift_version = '5.0'
 

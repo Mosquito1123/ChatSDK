@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'ChatSDK_Example' do
-  pod 'ChatSDK', :path => '../'
+  pod 'WTChatSDK', :path => '../'
 
   target 'ChatSDK_Tests' do
     inherit! :search_paths

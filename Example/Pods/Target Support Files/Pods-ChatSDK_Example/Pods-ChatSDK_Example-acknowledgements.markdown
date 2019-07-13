@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## ChatSDK
+## WTChatSDK
 
 Copyright (c) 2019 Mosquito1123 <winston.zhangwentong@gmail.com>
 
